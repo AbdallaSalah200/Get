@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
                   color: Colors.red,
                 onPressed: ()
                 {
-                  Get.to(PageOne());
+                  Get.toNamed("/pageone");
                 },
                 child: const  Center(child: Text("page one")),),
              ),
@@ -33,7 +33,7 @@ class Home extends StatelessWidget {
                   color: Colors.red,
                 onPressed: ()
                 {
-                    Get.to(PageTwo());
+                    Get.offNamed('/pagetwo');
                 },
                 child: const  Center(child: Text("page two")),),
               ),
